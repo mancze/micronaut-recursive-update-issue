@@ -1,8 +1,7 @@
 package com.example.recursiveupdate;
 
 import io.micronaut.runtime.http.scope.RequestScope;
-
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 @RequestScope
 class HostHeaderExtractorImpl implements HostHeaderExtractor {

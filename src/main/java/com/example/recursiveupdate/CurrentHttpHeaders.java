@@ -3,8 +3,8 @@ package com.example.recursiveupdate;
 import io.micronaut.http.HttpHeaders;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.runtime.http.scope.RequestScope;
+import jakarta.inject.Inject;
 
-import javax.inject.Inject;
 import java.util.Optional;
 
 @RequestScope

@@ -20,7 +20,7 @@ micronaut {
 }
 
 dependencies {
-    annotationProcessor("io.micronaut:micronaut-inject-java")
+    annotationProcessor("io.micronaut:micronaut-http-validation")
 
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-runtime")
@@ -29,6 +29,7 @@ dependencies {
 
     runtimeOnly("ch.qos.logback:logback-classic")
 
+    testImplementation("io.micronaut.rxjava2:micronaut-rxjava2-http-client")
     testImplementation("org.assertj:assertj-core")
     testImplementation("org.mockito:mockito-core")
 }
